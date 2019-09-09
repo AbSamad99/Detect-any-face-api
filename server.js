@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const bcrypt = require('bcrypt-nodejs');
+const bcrypt = require('bcrypt');
 const knex = require('knex');
 
 const register = require('./controllers/register');
